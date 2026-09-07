@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<extension key="paymentafterprofiles" type="module">
+  <file>paymentafterprofiles</file>
+  <name>paymentafterprofiles</name>
+  <description>Makes the payment block show after all profiles in a traditional contribution page</description>
+  <license>AGPL-3.0</license>
+  <authors>
+    <author>
+      <name>Andy Burns</name>
+      <email>andy@civicopilot.com</email>
+      <role>Maintainer</role>
+    </author>
+  </authors>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/civicopilot/paymentafterprofiles</url>
+    <url desc="Documentation">https://github.com/civicopilot/paymentafterprofiles</url>
+    <url desc="Support">https://github.com/civicopilot/paymentafterprofiles/issues/</url>
+    <url desc="Licensing">https://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2026-09-07</releaseDate>
+  <version>1.0.0</version>
+  <develStage>beta</develStage>
+  <compatibility>
+    <ver>6.17</ver>
+  </compatibility>
+  <comments></comments>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Paymentafterprofiles</namespace>
+    <format>25.01.1</format>
+    <angularModule>crmPaymentafterprofiles</angularModule>
+  </civix>
+  <mixins>
+  </mixins>
+</extension>
