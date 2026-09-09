@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <extension key="paymentafterprofiles" type="module">
   <file>paymentafterprofiles</file>
-  <name>paymentafterprofiles</name>
+  <name>Payment After Profiles</name>
   <description>Makes the payment block show after all profiles in a traditional contribution page</description>
   <license>AGPL-3.0</license>
   <authors>
@@ -34,5 +34,7 @@
     <angularModule>crmPaymentafterprofiles</angularModule>
   </civix>
   <mixins>
+    <mixin>setting-php@1.0.0</mixin>
+    <mixin>smarty@1.0.3</mixin>
   </mixins>
 </extension>
