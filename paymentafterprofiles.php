@@ -11,8 +11,8 @@ use CRM_Paymentafterprofiles_ExtensionUtil as E;
 function paymentafterprofiles_civicrm_check(&$messages): void {
   // Hash of the original CORE template
   // Update both values after reviewing and incorporating core changes.
-  $reviewedCoreVersion = '6.17.3';
-  $reviewedCoreHash = '6803e048e3cc0eeee2ea4daa60e9519fbe7c1bd1ffd197b2c813914c60518995';
+  $reviewedCoreVersion = '6.19.1';
+  $reviewedCoreHash = 'ab1cb1dbd66781417f5ba1bfe32bd21a9bea6dadff84e7d3e8fb3607ac8612b2';
   $coreTemplate = Civi::paths()->getPath('[civicrm.root]/templates/CRM/Contribute/Form/Contribution/Main.tpl');
   // Report read failures through System Status, including failures during hashing.
   $currentHash = is_file($coreTemplate) && is_readable($coreTemplate)
